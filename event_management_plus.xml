@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-02-16 17:06:18">
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-03-03 22:39:27">
 <sys_remote_update_set action="INSERT_OR_UPDATE">
 <application display_value="Global">global</application>
 <application_name>Global</application_name>
@@ -13,18 +13,48 @@
 <origin_sys_id/>
 <parent display_value=""/>
 <release_date/>
-<remote_base_update_set display_value="Event Management Plus - Batch Parent">f690c0172f900e104cc5dc1a2799b604</remote_base_update_set>
+<remote_base_update_set display_value="Event Management Plus - Batch Parent">b246e39447b4c2101e4bf2b4116d4369</remote_base_update_set>
 <remote_parent_id/>
-<remote_sys_id>7adfff432f900e104cc5dc1a2799b6fc</remote_sys_id>
+<remote_sys_id>4ee5a31447b4c2101e4bf2b4116d4303</remote_sys_id>
 <state>loaded</state>
 <summary/>
 <sys_class_name>sys_remote_update_set</sys_class_name>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2024-02-16 17:06:17</sys_created_on>
-<sys_id>f690c0172f900e104cc5dc1a2799b604</sys_id>
+<sys_created_on>2024-03-03 22:39:26</sys_created_on>
+<sys_id>b246e39447b4c2101e4bf2b4116d4369</sys_id>
 <sys_mod_count>1</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2024-02-16 17:06:17</sys_updated_on>
+<sys_updated_on>2024-03-03 22:39:26</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Event Management Plus - Batch Child</name>
+<origin_sys_id/>
+<parent display_value="Event Management Plus - Batch Parent">b246e39447b4c2101e4bf2b4116d4369</parent>
+<release_date/>
+<remote_base_update_set display_value="Event Management Plus - Batch Parent">b246e39447b4c2101e4bf2b4116d4369</remote_base_update_set>
+<remote_parent_id/>
+<remote_sys_id>dea4235847b4c2101e4bf2b4116d4312</remote_sys_id>
+<state>in_hierarchy</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-03-03 22:39:26</sys_created_on>
+<sys_id>0b46e39447b4c2101e4bf2b4116d436a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-03-03 22:39:26</sys_updated_on>
 <update_set display_value=""/>
 <update_source display_value=""/>
 <updated/>
@@ -33,7 +63,7 @@
 <application display_value="Alert Rules Management">31a0b01e1b706890591141d9bc4bcb31</application>
 <application_name>Alert Rules Management</application_name>
 <application_scope>sn_em_arm</application_scope>
-<application_version>18.10.6</application_version>
+<application_version>18.11.4</application_version>
 <collisions/>
 <commit_date/>
 <deleted/>
@@ -41,50 +71,20 @@
 <inserted/>
 <name>Event Management Plus - Batch Child</name>
 <origin_sys_id/>
-<parent display_value="Event Management Plus - Batch Parent">f690c0172f900e104cc5dc1a2799b604</parent>
+<parent display_value="Event Management Plus - Batch Parent">b246e39447b4c2101e4bf2b4116d4369</parent>
 <release_date/>
-<remote_base_update_set display_value="Event Management Plus - Batch Parent">f690c0172f900e104cc5dc1a2799b604</remote_base_update_set>
+<remote_base_update_set display_value="Event Management Plus - Batch Parent">b246e39447b4c2101e4bf2b4116d4369</remote_base_update_set>
 <remote_parent_id/>
-<remote_sys_id>fedfff432f900e104cc5dc1a2799b6fd</remote_sys_id>
+<remote_sys_id>0ae5e7d847b4c2101e4bf2b4116d43a4</remote_sys_id>
 <state>in_hierarchy</state>
 <summary/>
 <sys_class_name>sys_remote_update_set</sys_class_name>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2024-02-16 17:06:17</sys_created_on>
-<sys_id>7690c0172f900e104cc5dc1a2799b606</sys_id>
+<sys_created_on>2024-03-03 22:39:26</sys_created_on>
+<sys_id>3e46e39447b4c2101e4bf2b4116d4369</sys_id>
 <sys_mod_count>0</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2024-02-16 17:06:17</sys_updated_on>
-<update_set display_value=""/>
-<update_source display_value=""/>
-<updated/>
-</sys_remote_update_set>
-<sys_remote_update_set action="INSERT_OR_UPDATE">
-<application display_value="Global">global</application>
-<application_name>Global</application_name>
-<application_scope>global</application_scope>
-<application_version/>
-<collisions/>
-<commit_date/>
-<deleted/>
-<description/>
-<inserted/>
-<name>Event Management Plus - Batch Child</name>
-<origin_sys_id/>
-<parent display_value="Event Management Plus - Batch Parent">f690c0172f900e104cc5dc1a2799b604</parent>
-<release_date/>
-<remote_base_update_set display_value="Event Management Plus - Batch Parent">f690c0172f900e104cc5dc1a2799b604</remote_base_update_set>
-<remote_parent_id/>
-<remote_sys_id>b43f7f032f900e104cc5dc1a2799b631</remote_sys_id>
-<state>in_hierarchy</state>
-<summary/>
-<sys_class_name>sys_remote_update_set</sys_class_name>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2024-02-16 17:06:17</sys_created_on>
-<sys_id>f290c0172f900e104cc5dc1a2799b605</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2024-02-16 17:06:17</sys_updated_on>
+<sys_updated_on>2024-03-03 22:39:26</sys_updated_on>
 <update_set display_value=""/>
 <update_source display_value=""/>
 <updated/>
@@ -103,22 +103,275 @@
 <origin_sys_id/>
 <parent display_value=""/>
 <release_date/>
-<remote_base_update_set display_value="Event Management Plus - Batch Parent">f690c0172f900e104cc5dc1a2799b604</remote_base_update_set>
+<remote_base_update_set display_value="Event Management Plus - Batch Parent">b246e39447b4c2101e4bf2b4116d4369</remote_base_update_set>
 <remote_parent_id/>
-<remote_sys_id>7adfff432f900e104cc5dc1a2799b6fc</remote_sys_id>
+<remote_sys_id>4ee5a31447b4c2101e4bf2b4116d4303</remote_sys_id>
 <state>loaded</state>
 <summary/>
 <sys_class_name>sys_remote_update_set</sys_class_name>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2024-02-16 17:06:17</sys_created_on>
-<sys_id>f690c0172f900e104cc5dc1a2799b604</sys_id>
+<sys_created_on>2024-03-03 22:39:26</sys_created_on>
+<sys_id>b246e39447b4c2101e4bf2b4116d4369</sys_id>
 <sys_mod_count>1</sys_mod_count>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2024-02-16 17:06:17</sys_updated_on>
+<sys_updated_on>2024-03-03 22:39:26</sys_updated_on>
 <update_set display_value=""/>
 <update_source display_value=""/>
 <updated/>
 </sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_435ba9962f1846104cc5dc1a2799b61b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;em_alert&lt;/collection&gt;&lt;condition&gt;((previous.state != 'Closed' &amp;amp;&amp;amp; current.state == 'Closed')||(previous.severity != '5' &amp;amp;&amp;amp; current.severity == '5') ||(previous.severity != '0' &amp;amp;&amp;amp; current.severity == '0')) &amp;amp;&amp;amp; current.incident !='NULL' &amp;amp;&amp;amp; current.incident !='' &amp;amp;&amp;amp; current.incident !=null&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;EMP Close associated incident&lt;/name&gt;&lt;order&gt;400&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/)
+{
+    var alertManager = new SNC.AlertManager();
+    alertManager.addStep('Alert BR: Close associated incident (after)');
+
+    var taskRecord = new GlideRecord('task');
+    taskRecord.get(current.incident);
+
+    try
+    {
+        var additionalInfo = JSON.parse(current.additional_info);        
+    }
+    catch (err)
+    {
+        gs.error('EMP - Unable to parse "additional_info" field for {0}.', current.number);
+    }
+
+    // Only handle incident tasks. Lines 30-49 in the OOB script appear to choose a state for task types other than
+    // "incident". We only care about linked incident tasks so that block was not used here.
+    if (taskRecord.sys_class_name == 'incident')
+    {
+        if (taskRecord.state != IncidentState.RESOLVED &amp;&amp; taskRecord.state != IncidentState.CLOSED &amp;&amp;
+            taskRecord.state != IncidentState.CANCELED)
+        {
+            // check there are no alerts linked to this task that are not closed
+            var relatedAlerts = new GlideRecord('em_alert');
+            relatedAlerts.addQuery('sys_id', '!=', current.sys_id); // skip the current alert
+            relatedAlerts.addQuery('state', '!=', 'closed');
+            relatedAlerts.addQuery('severity', '!=', '5');
+            relatedAlerts.addQuery('severity', '!=', '0');
+            relatedAlerts.addQuery('incident', current.incident);
+            relatedAlerts.query();
+
+            if (relatedAlerts.getRowCount() == 0)
+            {
+                var behaviour;
+                if (additionalInfo.override_alert_closes_incident !== undefined)
+                {
+                    behaviour = additionalInfo.override_alert_closes_incident;
+                }
+                else
+                {
+                    behaviour = gs.getProperty('evt_mgmt.alert_closes_incident');
+                }
+
+                if (behaviour == 'close' || behaviour == 'resolve')
+                {
+                    var closeCode;
+                    if (additionalInfo.override_alert_incident_close_code !== undefined)
+                    {
+                        closeCode = additionalInfo.override_alert_incident_close_code;
+                    }
+                    else
+                    {
+                        closeCode = gs.getProperty('evt_mgmt.alert_incident_close_code');
+                    }
+
+                    var closeNotes;
+                    if (additionalInfo.override_alert_incident_close_notes !== undefined)
+                    {
+                        closeNotes = additionalInfo.override_alert_incident_close_notes;
+                    }
+                    else
+                    {
+                        closeNotes = gs.getProperty('evt_mgmt.alert_incident_close_notes');
+                    }
+
+                    var incidentRecord = new GlideRecord('incident');
+                    incidentRecord.get(taskRecord.getUniqueValue());
+                    incidentRecord.close_code = gs.getMessage(closeCode);
+                    incidentRecord.close_notes = gs.getMessage(closeNotes, current.number);
+                    incidentRecord.state = (behaviour == 'resolve' ? IncidentState.RESOLVED : IncidentState.CLOSED);
+
+                    // removed an OOB block which updated the "asset action" when Hardware Asset Management (HAM) is enabled
+
+                    incidentRecord.update();
+                }
+                else if (behaviour == 'nothing')
+                {
+                    // do nothing
+                }
+                else
+                {
+                    gs.error(
+                        'EMP - Unable to update {0} linked to {1}, the System Property "evt_mgmt.alert_closes_incident" ' +
+                        'or the Event Rule manual attribute "override_alert_closes_incident" are not set correctly.',
+                        taskRecord.number, current.number
+                    );
+                }
+            }
+        }
+    }
+    else
+    {
+        gs.error('EMP - Unable to update {0} linked to {1}, unexpected task type ({2}).',
+            taskRecord.number, current.number, taskRecord.sys_class_name);
+    }
+})(current, previous);
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-13 22:54:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;435ba9962f1846104cc5dc1a2799b61b&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;EMP Close associated incident&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_435ba9962f1846104cc5dc1a2799b61b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-03 22:25:43&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=435ba9962f1846104cc5dc1a2799b61b"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-999245791</payload_hash>
+<remote_update_set display_value="Event Management Plus - Batch Child">0b46e39447b4c2101e4bf2b4116d436a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-03-03 22:39:26</sys_created_on>
+<sys_id>0746e39447b4c2101e4bf2b4116d436b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18e06766f0b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-03-03 22:39:26</sys_updated_on>
+<table>em_alert</table>
+<target_name>EMP Close associated incident</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>94b5279828b4c2107b860ea5f670c4d8</update_guid>
+<update_guid_history>94b5279828b4c2107b860ea5f670c4d8:-999245791,c223af5409b4c210adf8580e60314c8f:-999245791,bdb0e5947db482109276159c9175a1a7:-2035379096,5f7dd99c8f748210a0ba2132e01fb527:1474011514,680bc9d02af0821061fc6b87ee6cdcc1:-2035379096,fac3a9c869b40210a8ebd248278f90ec:1722766540,e79519bb1364c2105eaa6d751cb07a5e:284537334,eaaf33832d900e106fea368a2c3568a0:1483233711,1e9c770b39500e1052bcb5f80378af78:1483233711,3e87356adcd4c6107395eb75c4321eb9:284537334,ca73399abc1846103f9312f723b825d2:1483233711</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_ebd641d047f082101e4bf2b4116d43f7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Close/resolution code for incidents linked to alerts.</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>evt_mgmt.alert_incident_close_code</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-03 11:05:25</sys_created_on><sys_id>ebd641d047f082101e4bf2b4116d43f7</sys_id><sys_mod_count>2</sys_mod_count><sys_name>evt_mgmt.alert_incident_close_code</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_ebd641d047f082101e4bf2b4116d43f7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-03 15:50:01</sys_updated_on><type>string</type><value>Solved Remotely (Permanently)</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=ebd641d047f082101e4bf2b4116d43f7"/></record_update>]]></payload>
+<payload_hash>-1874912704</payload_hash>
+<remote_update_set display_value="Event Management Plus - Batch Child">0b46e39447b4c2101e4bf2b4116d436a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-03-03 22:39:26</sys_created_on>
+<sys_id>4346e39447b4c2101e4bf2b4116d436b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18e067456b10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-03-03 22:39:26</sys_updated_on>
+<table/>
+<target_name>evt_mgmt.alert_incident_close_code</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>b625235838b4c21069073c3ebdfaa5c8</update_guid>
+<update_guid_history>b625235838b4c21069073c3ebdfaa5c8:-1874912704,b5980ed067f8821012e95b6285947f6d:-1874912704,6a48c6d055f88210056431a839330c38:-1980378183,f4770514aaf08210aecc2051aa82f0dc:929558805</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_dd42a95a2fd446104cc5dc1a2799b6ba</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices>New=new, In Progress=in_progress, On Hold=on_hold</choices><description>Reopened alerts will have state:</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>evt_mgmt.alert_reopens_incident_state</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-13 21:43:30</sys_created_on><sys_id>dd42a95a2fd446104cc5dc1a2799b6ba</sys_id><sys_mod_count>1</sys_mod_count><sys_name>evt_mgmt.alert_reopens_incident_state</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_dd42a95a2fd446104cc5dc1a2799b6ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-13 22:06:26</sys_updated_on><type>choicelist</type><value>in_progress</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=dd42a95a2fd446104cc5dc1a2799b6ba"/></record_update>]]></payload>
+<payload_hash>-763428169</payload_hash>
+<remote_update_set display_value="Event Management Plus - Batch Child">0b46e39447b4c2101e4bf2b4116d436a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-03-03 22:39:26</sys_created_on>
+<sys_id>8f46e39447b4c2101e4bf2b4116d436a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18e067456fa0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-03-03 22:39:26</sys_updated_on>
+<table/>
+<target_name>evt_mgmt.alert_reopens_incident_state</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>36252358b1b4c210eb5ca777662631cc</update_guid>
+<update_guid_history>36252358b1b4c210eb5ca777662631cc:-763428169,fd7ff7436d900e10e0458faa816a3d59:-763428169,2a88655644184610f7396d334b3be55f:-763428169,7643651a3ed4461087fa8e3c59b91c12:487019009</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_9944b59a2f1846104cc5dc1a2799b6c4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;em_alert&lt;/collection&gt;&lt;condition&gt;((previous.state == 'Closed' &amp;amp;&amp;amp; (current.state == 'Reopen' || current.state == 'Flapping')) || (previous.severity == '5' &amp;amp;&amp;amp; current.severity != '5' &amp;amp;&amp;amp; current.severity != '0')) &amp;amp;&amp;amp; ((!current.incident.nil()) || (!current.remote_task_id.nil()) )&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;EMP Reopen associated closed incident&lt;/name&gt;&lt;order&gt;500&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+    // This rule runs when a closed alert is reopened or goes into flapping for a new event
+    // It checks if the associated task is in the resolved or closed state
+    // If it is, then it can reopen that task or create a new one (checks the property alert_reopens_incident)
+    // If not, it just adds a comment on the task
+
+    var alertManager = new SNC.AlertManager();
+    alertManager.addStep("Alert BR: Reopen associated closed incident (after)");
+
+    var alertManagementAlertReopenHandlerDynamic;
+
+    if (EvtMgmtAlertMgmtProperties.isARMScopedAppActive())
+    {
+        gs.include('sn_em_arm.EmpEvtMgmtAlertMgmtAlertReopenHandler');
+        alertManagementAlertReopenHandlerDynamic = new sn_em_arm.EmpEvtMgmtAlertMgmtAlertReopenHandler();
+    }
+    else
+    {
+        gs.include('EmpEvtMgmtAlertManagementAlertReopenHandler');
+        alertManagementAlertReopenHandlerDynamic = new EmpEvtMgmtAlertManagementAlertReopenHandler();
+    }
+
+    alertManagementAlertReopenHandlerDynamic.onAlertReopen(current);
+
+})(current, previous);
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-13 23:02:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9944b59a2f1846104cc5dc1a2799b6c4&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;EMP Reopen associated closed incident&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_9944b59a2f1846104cc5dc1a2799b6c4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-03 22:26:01&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9944b59a2f1846104cc5dc1a2799b6c4"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2089304892</payload_hash>
+<remote_update_set display_value="Event Management Plus - Batch Child">0b46e39447b4c2101e4bf2b4116d436a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-03-03 22:39:26</sys_created_on>
+<sys_id>c746e39447b4c2101e4bf2b4116d436b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18e06766f350000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-03-03 22:39:26</sys_updated_on>
+<table>em_alert</table>
+<target_name>EMP Reopen associated closed incident</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>d0b52798b5b4c21059912ada9cf695da</update_guid>
+<update_guid_history>d0b52798b5b4c21059912ada9cf695da:-2089304892,9633af54e9b4c210e3aa9377c9292877:-2089304892,88b51dbbfe64c210713715af3b486c62:1646404427,2aaf3383ef900e10629388cea498d6a2:-2089304892,c2dd73cf9e500e107987c6c40208c265:-2089304892,8da8f62207dcc6104db32638cd400820:1646404427,d8a7f56a19d4c61022d1b9add4f65efc:244033821,a655315eb258461082db97330d39526d:-1006826410</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_9c2a09d047f082101e4bf2b4116d43f5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Close/resolution notes for incidents linked to alerts. "{0}" will be replaced with the alert id.</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>evt_mgmt.alert_incident_close_notes</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-03 11:17:34</sys_created_on><sys_id>9c2a09d047f082101e4bf2b4116d43f5</sys_id><sys_mod_count>1</sys_mod_count><sys_name>evt_mgmt.alert_incident_close_notes</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_9c2a09d047f082101e4bf2b4116d43f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-03 15:51:37</sys_updated_on><type>string</type><value>Closed the task associated with alert: {0}</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=9c2a09d047f082101e4bf2b4116d43f5"/></record_update>]]></payload>
+<payload_hash>-569797623</payload_hash>
+<remote_update_set display_value="Event Management Plus - Batch Child">0b46e39447b4c2101e4bf2b4116d436a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-03-03 22:39:26</sys_created_on>
+<sys_id>cb46e39447b4c2101e4bf2b4116d436a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18e067456d90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-03-03 22:39:26</sys_updated_on>
+<table/>
+<target_name>evt_mgmt.alert_incident_close_notes</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>b6252358b1b4c210a2fc3f05f4f390ca</update_guid>
+<update_guid_history>b6252358b1b4c210a2fc3f05f4f390ca:-569797623,85f846d8a0b88210571f25088587b6db:-569797623,ea3a8dd0e9f08210a5a7ebc61deedb44:-1878901701</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
 <sys_update_xml action="INSERT_OR_UPDATE">
 <action>INSERT_OR_UPDATE</action>
 <application display_value="Alert Rules Management">31a0b01e1b706890591141d9bc4bcb31</application>
@@ -244,202 +497,21 @@ EmpEvtMgmtAlertMgmtAlertReopenHandler.prototype = Object.extendsObject(EvtMgmtAl
 });
 ]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-14 17:33:50&lt;/sys_created_on&gt;&lt;sys_id&gt;8ebf21662f94c6104cc5dc1a2799b676&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;EmpEvtMgmtAlertMgmtAlertReopenHandler&lt;/sys_name&gt;&lt;sys_package display_value="Alert Rules Management" source="sn_em_arm"&gt;31a0b01e1b706890591141d9bc4bcb31&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Alert Rules Management"&gt;31a0b01e1b706890591141d9bc4bcb31&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_8ebf21662f94c6104cc5dc1a2799b676&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-14 17:33:50&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
 <payload_hash>-600957155</payload_hash>
-<remote_update_set display_value="Event Management Plus - Batch Child">7690c0172f900e104cc5dc1a2799b606</remote_update_set>
+<remote_update_set display_value="Event Management Plus - Batch Child">3e46e39447b4c2101e4bf2b4116d4369</remote_update_set>
 <replace_on_upgrade>false</replace_on_upgrade>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2024-02-16 17:06:17</sys_created_on>
-<sys_id>3a90c0172f900e104cc5dc1a2799b606</sys_id>
+<sys_created_on>2024-03-03 22:39:26</sys_created_on>
+<sys_id>fe46e39447b4c2101e4bf2b4116d4369</sys_id>
 <sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>18db2df15080000001</sys_recorded_at>
+<sys_recorded_at>18e067748050000001</sys_recorded_at>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2024-02-16 17:06:17</sys_updated_on>
+<sys_updated_on>2024-03-03 22:39:26</sys_updated_on>
 <table/>
 <target_name>EmpEvtMgmtAlertMgmtAlertReopenHandler</target_name>
 <type>Script Include</type>
 <update_domain>global</update_domain>
-<update_guid>3adfff43db900e106af891be023c4cff</update_guid>
-<update_guid_history>3adfff43db900e106af891be023c4cff:-600957155,83b3b522b4d4c610afe746c311d68994:-600957155</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Global">global</application>
-<category>customer</category>
-<comments/>
-<name>sys_script_9944b59a2f1846104cc5dc1a2799b6c4</name>
-<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;em_alert&lt;/collection&gt;&lt;condition&gt;((previous.state == 'Closed' &amp;amp;&amp;amp; (current.state == 'Reopen' || current.state == 'Flapping')) || (previous.severity == '5' &amp;amp;&amp;amp; current.severity != '5' &amp;amp;&amp;amp; current.severity != '0')) &amp;amp;&amp;amp; ((!current.incident.nil()) || (!current.remote_task_id.nil()) )&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;EMP Reopen associated closed incident&lt;/name&gt;&lt;order&gt;500&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
-    // This rule runs when a closed alert is reopened or goes into flapping for a new event
-    // It checks if the associated task is in the resolved or closed state
-    // If it is, then it can reopen that task or create a new one (checks the property alert_reopens_incident)
-    // If not, it just adds a comment on the task
-
-    var alertManager = new SNC.AlertManager();
-    alertManager.addStep("Alert BR: Reopen associated closed incident (after)");
-
-    var alertManagementAlertReopenHandlerDynamic;
-
-    if (EvtMgmtAlertMgmtProperties.isARMScopedAppActive())
-    {
-        gs.include('sn_em_arm.EmpEvtMgmtAlertMgmtAlertReopenHandler');
-        alertManagementAlertReopenHandlerDynamic = new sn_em_arm.EmpEvtMgmtAlertMgmtAlertReopenHandler();
-    }
-    else
-    {
-        gs.include('EmpEvtMgmtAlertManagementAlertReopenHandler');
-        alertManagementAlertReopenHandlerDynamic = new EmpEvtMgmtAlertManagementAlertReopenHandler();
-    }
-
-    alertManagementAlertReopenHandlerDynamic.onAlertReopen(current);
-
-})(current, previous);
-]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-13 23:02:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9944b59a2f1846104cc5dc1a2799b6c4&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;EMP Reopen associated closed incident&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_9944b59a2f1846104cc5dc1a2799b6c4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-16 16:54:13&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9944b59a2f1846104cc5dc1a2799b6c4"/&gt;&lt;/record_update&gt;</payload>
-<payload_hash>-2089304892</payload_hash>
-<remote_update_set display_value="Event Management Plus - Batch Child">f290c0172f900e104cc5dc1a2799b605</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2024-02-16 17:06:17</sys_created_on>
-<sys_id>3290c0172f900e104cc5dc1a2799b606</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>18db2de4fb40000001</sys_recorded_at>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2024-02-16 17:06:17</sys_updated_on>
-<table>em_alert</table>
-<target_name>EMP Reopen associated closed incident</target_name>
-<type>Business Rule</type>
-<update_domain>global</update_domain>
-<update_guid>2aaf3383ef900e10629388cea498d6a2</update_guid>
-<update_guid_history>2aaf3383ef900e10629388cea498d6a2:-2089304892,c2dd73cf9e500e107987c6c40208c265:-2089304892,8da8f62207dcc6104db32638cd400820:1646404427,d8a7f56a19d4c61022d1b9add4f65efc:244033821,a655315eb258461082db97330d39526d:-1006826410</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Global">global</application>
-<category>customer</category>
-<comments/>
-<name>sys_script_435ba9962f1846104cc5dc1a2799b61b</name>
-<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;em_alert&lt;/collection&gt;&lt;condition&gt;((previous.state != 'Closed' &amp;amp;&amp;amp; current.state == 'Closed')||(previous.severity != '5' &amp;amp;&amp;amp; current.severity == '5') ||(previous.severity != '0' &amp;amp;&amp;amp; current.severity == '0')) &amp;amp;&amp;amp; current.incident !='NULL' &amp;amp;&amp;amp; current.incident !='' &amp;amp;&amp;amp; current.incident !=null&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;EMP Close associated incident&lt;/name&gt;&lt;order&gt;400&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/)
-{
-    var alertManager = new SNC.AlertManager();
-    alertManager.addStep('Alert BR: Close associated incident (after)');
-
-    var taskRecord = new GlideRecord('task');
-    taskRecord.get(current.incident);
-
-    try
-    {
-        var additionalInfo = JSON.parse(current.additional_info);        
-    }
-    catch (err)
-    {
-        gs.error('EMP - Unable to parse "additional_info" field for {0}.', current.number);
-    }
-
-    // Only handle incident tasks. Lines 30-49 in the OOB script appear to choose a state for task types other than
-    // "incident". We only care about linked incident tasks so that block was not used here.
-    if (taskRecord.sys_class_name == 'incident')
-    {
-        if (taskRecord.state != IncidentState.RESOLVED &amp;&amp; taskRecord.state != IncidentState.CLOSED &amp;&amp;
-            taskRecord.state != IncidentState.CANCELED)
-        {
-            // check there are no alerts linked to this task that are not closed
-            var relatedAlerts = new GlideRecord('em_alert');
-            relatedAlerts.addQuery('sys_id', '!=', current.sys_id); // skip the current alert
-            relatedAlerts.addQuery('state', '!=', 'closed');
-            relatedAlerts.addQuery('severity', '!=', '5');
-            relatedAlerts.addQuery('severity', '!=', '0');
-            relatedAlerts.addQuery('incident', current.incident);
-            relatedAlerts.query();
-
-            if (relatedAlerts.getRowCount() == 0)
-            {
-                var behaviour;
-                if (additionalInfo.override_alert_closes_incident !== undefined)
-                {
-                    behaviour = additionalInfo.override_alert_closes_incident;
-                }
-                else
-                {
-                    behaviour = gs.getProperty('evt_mgmt.alert_closes_incident');
-                }
-
-                if (behaviour == 'close' || behaviour == 'resolve')
-                {
-                    var incidentRecord = new GlideRecord('incident');
-                    incidentRecord.get(taskRecord.getUniqueValue());
-                    incidentRecord.close_code = 'Solved Remotely (Permanently)';
-                    incidentRecord.close_notes = 'The alert associated with this incident closed ('+current.number+').';
-                    incidentRecord.state = (behaviour == 'resolve' ? IncidentState.RESOLVED : IncidentState.CLOSED);
-
-                    // removed an OOB block which updated the "asset action" when Hardware Asset Management (HAM) is enabled
-
-                    incidentRecord.update();
-                }
-                else if (behaviour == 'nothing')
-                {
-                    // do nothing
-                }
-                else
-                {
-                    gs.error(
-                        'EMP - Unable to update {0} linked to {1}, the System Property "evt_mgmt.alert_closes_incident" ' +
-                        'or the Event Rule manual attribute "override_alert_closes_incident" are not set correctly.',
-                        taskRecord.number, current.number
-                    );
-                }
-            }
-        }
-    }
-    else
-    {
-        gs.error('EMP - Unable to update {0} linked to {1}, unexpected task type ({2}).',
-            taskRecord.number, current.number, taskRecord.sys_class_name);
-    }
-})(current, previous);
-]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-13 22:54:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;435ba9962f1846104cc5dc1a2799b61b&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;EMP Close associated incident&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_435ba9962f1846104cc5dc1a2799b61b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-16 16:48:46&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=435ba9962f1846104cc5dc1a2799b61b"/&gt;&lt;/record_update&gt;</payload>
-<payload_hash>1483233711</payload_hash>
-<remote_update_set display_value="Event Management Plus - Batch Child">f290c0172f900e104cc5dc1a2799b605</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2024-02-16 17:06:17</sys_created_on>
-<sys_id>7e90c0172f900e104cc5dc1a2799b605</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>18db2de4f7f0000001</sys_recorded_at>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2024-02-16 17:06:17</sys_updated_on>
-<table>em_alert</table>
-<target_name>EMP Close associated incident</target_name>
-<type>Business Rule</type>
-<update_domain>global</update_domain>
-<update_guid>eaaf33832d900e106fea368a2c3568a0</update_guid>
-<update_guid_history>eaaf33832d900e106fea368a2c3568a0:1483233711,1e9c770b39500e1052bcb5f80378af78:1483233711,3e87356adcd4c6107395eb75c4321eb9:284537334,ca73399abc1846103f9312f723b825d2:1483233711</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
-<application display_value="Global">global</application>
-<category>customer</category>
-<comments/>
-<name>sys_properties_dd42a95a2fd446104cc5dc1a2799b6ba</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices>New=new, In Progress=in_progress, On Hold=on_hold</choices><description>Reopened alerts will have state:</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>evt_mgmt.alert_reopens_incident_state</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-13 21:43:30</sys_created_on><sys_id>dd42a95a2fd446104cc5dc1a2799b6ba</sys_id><sys_mod_count>1</sys_mod_count><sys_name>evt_mgmt.alert_reopens_incident_state</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_dd42a95a2fd446104cc5dc1a2799b6ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-13 22:06:26</sys_updated_on><type>choicelist</type><value>in_progress</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=dd42a95a2fd446104cc5dc1a2799b6ba"/></record_update>]]></payload>
-<payload_hash>-763428169</payload_hash>
-<remote_update_set display_value="Event Management Plus - Batch Child">f290c0172f900e104cc5dc1a2799b605</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2024-02-16 17:06:17</sys_created_on>
-<sys_id>b690c0172f900e104cc5dc1a2799b605</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>18db2dd84fb0000001</sys_recorded_at>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2024-02-16 17:06:17</sys_updated_on>
-<table/>
-<target_name>evt_mgmt.alert_reopens_incident_state</target_name>
-<type>System Property</type>
-<update_domain>global</update_domain>
-<update_guid>fd7ff7436d900e10e0458faa816a3d59</update_guid>
-<update_guid_history>fd7ff7436d900e10e0458faa816a3d59:-763428169,2a88655644184610f7396d334b3be55f:-763428169,7643651a3ed4461087fa8e3c59b91c12:487019009</update_guid_history>
+<update_guid>02e5e7d86ab4c210344b881129f390a6</update_guid>
+<update_guid_history>02e5e7d86ab4c210344b881129f390a6:-600957155,3adfff43db900e106af891be023c4cff:-600957155,83b3b522b4d4c610afe746c311d68994:-600957155</update_guid_history>
 <update_set display_value=""/>
 <view/>
 </sys_update_xml>

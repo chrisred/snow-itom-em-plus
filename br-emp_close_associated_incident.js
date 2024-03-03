@@ -45,10 +45,30 @@
 
                 if (behaviour == 'close' || behaviour == 'resolve')
                 {
+                    var closeCode;
+                    if (additionalInfo.override_alert_incident_close_code !== undefined)
+                    {
+                        closeCode = additionalInfo.override_alert_incident_close_code;
+                    }
+                    else
+                    {
+                        closeCode = gs.getProperty('evt_mgmt.alert_incident_close_code');
+                    }
+
+                    var closeNotes;
+                    if (additionalInfo.override_alert_incident_close_notes !== undefined)
+                    {
+                        closeNotes = additionalInfo.override_alert_incident_close_notes;
+                    }
+                    else
+                    {
+                        closeNotes = gs.getProperty('evt_mgmt.alert_incident_close_notes');
+                    }
+
                     var incidentRecord = new GlideRecord('incident');
                     incidentRecord.get(taskRecord.getUniqueValue());
-                    incidentRecord.close_code = 'Solved Remotely (Permanently)';
-                    incidentRecord.close_notes = 'The alert associated with this incident closed ('+current.number+').';
+                    incidentRecord.close_code = gs.getMessage(closeCode);
+                    incidentRecord.close_notes = gs.getMessage(closeNotes, current.number);
                     incidentRecord.state = (behaviour == 'resolve' ? IncidentState.RESOLVED : IncidentState.CLOSED);
 
                     // removed an OOB block which updated the "asset action" when Hardware Asset Management (HAM) is enabled
